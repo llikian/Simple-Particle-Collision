@@ -1,4 +1,4 @@
-# Convex Hull
+# Simple Particle Collision
 ## Project Description
 This project is a simple particle simulation where multiple particles are generated with a random speed vector and there are collisions with
 the walls of the window.

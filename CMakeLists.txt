@@ -3,13 +3,15 @@ project(Particles)
 
 set(CMAKE_CXX_STANDARD 17)
 
+find_package(SDL2 REQUIRED)
+
 add_executable(${PROJECT_NAME}
         main.cpp
 
-        src/particles.cpp)
+        src/particles.cpp
+)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
-        old_src
         ${SDL2_INCLUDE_DIRS}
 )
 
